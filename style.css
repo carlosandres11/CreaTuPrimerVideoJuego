@@ -1,0 +1,98 @@
+:root{
+    --back-color: #ffafcc;
+    --primary-color: #cdb4db;
+    --opposite-primary: #a2d2ff;
+    --soft-primary: #ffc8dd;
+    --soft-opposite: #bde0fe;
+}
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+html{
+    font-size: 62.5%;
+    background-color: var(--back-color);
+}
+.game-container #game{
+    /* position: relative; */
+    display: block;
+    margin: 50px auto;
+    justify-content: center;
+    background-color: var(--soft-opposite);
+    border-radius: 60px;
+    border: var(--soft-primary) solid 10px;
+}
+.game-container .btns{
+    display: flex;
+    justify-content: center;
+}
+.game-container .btns #up{
+    display: inline-block;
+    background-color: var(--opposite-primary);
+    width: 10%;
+    height:40px;
+    margin: 0 10px;
+    max-width: 95px;
+    min-width: 80px;
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #336589;
+    font-weight: 400;
+    border: var(--soft-primary) solid 7px;
+}
+.game-container .btns #left{
+    display: inline-block;
+    background-color: var(--opposite-primary);
+    width: 20%;
+    height:40px;
+    margin: 0 10px;
+    max-width: 130px;
+    min-width: 110px;
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #336589;
+    font-weight: 400;
+    border: var(--soft-primary) solid 7px;
+}
+.game-container .btns #right{
+    display: inline-block;
+    background-color: var(--opposite-primary);
+    width: 20%;
+    height:40px;
+    margin: 0 10px;
+    max-width: 130px;
+    min-width: 100px;
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #336589;
+    font-weight: 400;
+    border: var(--soft-primary) solid 7px;
+}
+.game-container .btns #down{
+    display: inline-block;
+    background-color: var(--opposite-primary);
+    width: 10%;
+    height:40px;
+    margin: 0 10px;
+    max-width: 95px;
+    min-width: 80px;
+    border-radius: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: #336589;
+    font-weight: 400;
+    border: var(--soft-primary) solid 7px;;
+}
+.game-container .messages p{
+    margin-top: 3%;
+    margin-left: 15%;
+    text-align: left;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #fff3f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
